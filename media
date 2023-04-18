@@ -1,0 +1,80 @@
+/* for phone*/
+@media (max-width: 767px) {
+  .main-nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .showcase {
+    padding: 50px 20px;
+  }
+
+  .top-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .info img {
+    width: 100%;
+  }
+}
+
+/* dekstop and ipad */
+@media (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-nav {
+    flex: 1;
+  }
+
+  .top-container {
+    flex: 2;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    flex: 1;
+    margin: 10px;
+  }
+
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info img {
+    flex: 1;
+    height: 100%;
+  }
+
+  .info div {
+    flex: 1;
+    padding: 50px;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio img {
+    flex: 1;
+    height: 100%;
+  }
+
+  .portfolio div {
+    flex: 1;
+    padding: 50px;
+  }
+}
