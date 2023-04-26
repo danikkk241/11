@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
-    <script src="https://kit.fontawesome.com/53e83628b7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="practice.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <title>Grid-Biz</title>
 </head>
 <body>
-   <div class="wrapper">
-       <!-- Nav Bar -->
-       <nav class="main-nav">
-           <ul>
-               <li>
-                   <a href="#">Домашняя страница</a>
-                </li>
-               <li>
-                <a href="#">О нас</a>
-                </li>
-               <li>
-                   <a href="#">Сервисы</a> 
-                </li>
-               <li><a href="#">Контакты</a></li>
-           </ul>
-       </nav>
 
-       <!-- Top Container -->
-       <section class="top-container">
-           <header class="showcase">
-               <h1>Ваше интернет-присутствие</h1>
-               <p>Может оставить свой след в мире, а какой именно вы сможете выбрать с нами.</p>
-               <a href="#" class="btn">Read More</a>
-           </header>
-           <div class="top-box top-box-a">
-               <h4>Членство</h4>
-               <p class="price">$199/месяц</p>
-               <a href="#" class="btn"> Купить сейчас же</a>
-           </div>
-           <div class="top-box top-box-b">
-               <h4>PRО членство</h4>
-               <p class="price">$299/месяц</p>
-               <a href="#" class="btn"> Купить сейчас же</a>
-           </div>
-       </section>
-
-       <!-- Boxes Section -->
-       <section class="boxes">
-        <div class="box">
-            <i class="fas fa-chart-pie fa-4x"></i>
-            <h4>Аналитика</h4>
-            <p>Вы должны выбрать именно нас, потому что мы с вами всегда честны и предоставляем лучшую из доступных информаций. Только статистика, только числа, только аналитика.</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-globe fa-4x"></i>
-            <h4>Маркетинг</h4>
-            <p>Вы должны выбрать именно нас, потому что наши работники лучшие в своем деле. Они помгут вам разобраться в концепции бренда и стать популярными. С нами вы будете на слуху!</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-cog fa-4x"></i>
-            <h4>Разработка</h4>
-            <p>Вы должны выбрать именно нас, потому что для каждого проекта мы занимаемся только оригинальными проектами. Наши подопечные создать и генерируют лучшие идеи, не сомневайтесь.</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-users fa-4x"></i>
-            <h4>Поддержка</h4>
-            <p>Вы должны выбрать именно нас, потому что каждому члену сообщества, который оформил нашу подписку, мы оказываем постоянную пооддержку. Наши сотрудники всегда рады помочь вам, обращайтесь.</p>
-        </div>
-       </section>
-
-       <!-- Info section -->
-       <section class="info">
-           <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
-           <div>
-               <h2>Для вашего интернет-бизнеса</h2>
-               <p>C нами вы найдите подходящего специалиста. Мы предоставляем широкий список кандидатом, а вам останется только выбрать из всего многообразия того, кто вам действительно нужен. Пользуясь нашей базой людей вы уже гарантированно сделаете ваше интернет присутствие заметнее уже сегодня.</p>
-               <a href="#" class="btn">Узнать больше</a>
-           </div>
-       </section>
-
-       <!-- Portfolio Section -->
-       <section class="portfolio">
-           <img src="https://source.unsplash.com/random/200x200" alt="">
-           <img src="https://source.unsplash.com/random/201x200" alt="">
-           <img src="https://source.unsplash.com/random/202x200" alt="">
-           <img src="https://source.unsplash.com/random/203x200" alt="">
-           <img src="https://source.unsplash.com/random/204x200" alt="">
-           <img src="https://source.unsplash.com/random/205x200" alt="">
-           <img src="https://source.unsplash.com/random/206x200" alt="">
-           <img src="https://source.unsplash.com/random/207x200" alt="">
-       </section>
-
-       <!-- Footer -->
-       <footer >
-           <p>Seytech &copy; 2023</p>
-       </footer>
-   </div>
+ <div id="root">
+  <div class="wrapper"> <!-- Wrapper Begins -->
+    
+<!-- navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">додому</a></li>
+        <li><a href="#">про нас</a></li>
+        <li><a href="#">сервіси</a></li>
+        <li><a href="#">контакти</a></li>
+      </ul>
+    </nav>
+    
+<!-- Top Container -->
+    <section class="top-container">
+      <header class="showcase"> <!-- main image section -->
+        <h1>Ваша веб-присутність</h1>
+        <p>Може залишити свій слід у світі, а який саме ви зможете вибрати з нами.</p>
+        <a class="btn" href="#">Детальніше</a>
+      </header>
+      
+      <div class="top-box top-box-a"> <!-- Top right box near showcase -->
+        <h4>Членство</h4>
+        <p class="price">$199/місяць</p>
+        <a href="#" class="btn">Купити зараз</a>
+      </div>
+      
+       <div class="top-box top-box-b"> <!-- bottom right box near showcase -->
+        <h4>Pro Членство</h4>
+        <p class="price">$299/місяць</p>
+        <a href="#" class="btn">Купити зараз</a>
+      </div>
+    </section>
+    
+<!-- Boxes Section -->
+    <section class="boxes">
+      <div class="box">
+ <!-- adding a class of fa-4x made the item 4x larger. good to remmember!-->
+        <i class="fas fa-chart-pie fa-4x"></i> 
+        <h3>Аналітика</h3>
+        <p>Ви повинні вибрати саме нас, тому що ми з вами завжди чесні і надаємо кращу з доступних відомостей. Тільки статистика, тільки числа, тільки аналітика.</p>
+      </div>
+      
+      <div class="box">
+        <i class="fas fa-globe fa-4x"></i>
+        <h3>Маркетинг</h3>
+        <p>LВи повинні вибрати саме нас, тому що наші працівники кращі у своєму відділі. Вони допоможуть вам розібратися в концепції бренду і стати популярними. З нами ви будете на слуху!</p>
+      </div>
+      
+      <div class="box">
+        <i class="fas fa-cog fa-4x"></i>
+        <h3>Розвиток</h3>
+        <p>Ви повинні вибрати саме нас, тому що для кожного проекту ми займаємося тільки оригінальними проектами. Наші підопечні створюють і генерують кращі ідеї, не сомневайтесь.</p>
+      </div>
+      
+      <div class="box">
+        <i class="fas fa-users fa-4x"></i>
+        <h3>Підтримка</h3>
+        <p>Ви повинні вибрати саме нас, тому що кожному члену спільноти, який оформив нашу підписку, ми надаємо постійну підтримку. Наші співробітники завжди раді допомогти вам, звертайтесь.</p>
+      </div>
+    </section>
+    
+<!-- Info Section. one pic on left side, text floating to right of image-->
+    <section class="info">
+      <img src="https://i.postimg.cc/qMH8nwJJ/pexels-photo-355988.jpg" alt="lightbulb">
+      <div> <!-- the sections will go side-by-side in the same info section -->
+        <h2>Ваш бізнес в Інтернеті</h2>
+        <p>C нами ви знайдете відповідного спеціаліста. Ми надаємо широкий список кандидатів, а вам залишиться тільки вибрати з усього багатообразів того, хто вам дійсно потрібен. Користуючись нашою базою людей, ви вже гарантовано зробите ваше інтернет-присутство вже сьогодні.</p>
+        <a href="#" class="btn">Детальніше</a>
+      </div>
+    </section>
+    
+<!-- Portfolio / loose images section -->
+    <section class="portfolio">
+      <img src="https://sun9-40.userapi.com/s/v1/if1/FFDeZg22R3xZWIQZz62IE9msN_3P8fkPk8IH6C0nHgMO0h6yYhwQyINK_2M0G7FrE7O2KqxB.jpg?size=200x200&quality=96&crop=0,0,250,250&ava=1" alt="1">
+      <img src="https://rat.in.ua/wp-content/uploads/2014/06/4990-Coat-of-Arms-of-Ukraine-200x200.png" alt="2">
+      <img src="https://cdns-images.dzcdn.net/images/cover/b07d3224d85e1e69d381f811b75dd500/200x200.jpg" alt="3">
+      <img src="https://cdns-images.dzcdn.net/images/cover/221273373da3fd5f06668a3fd75cf644/264x264.jpg" alt="4">
+      <img src="https://cdns-images.dzcdn.net/images/cover/eca3b21868182a4a3290bd7eb748d78f/264x264.jpg" alt="5">
+      <img src="https://cdns-images.dzcdn.net/images/cover/9e541296983d3bbf3193ff72115830d3/264x264.jpg" alt="6">
+    </section>
+    
+<!-- Footer -->
+    <footer>
+      <p>Висновок &copy; Слава Україні 2023</p>
+    </footer>
+    
+  </div> <!-- wrapper ends -->
+<button onclick="toggleDarkMode()">змінити тему</button>
 </body>
 </html>
